@@ -1,4 +1,4 @@
-package java2;
+package java22;
 
 
 
@@ -10,6 +10,7 @@ public class Key {
 		
 
 	}
+	
 	@Override
 	public int hashCode() {
 		return number;
@@ -27,10 +28,8 @@ public class Key {
 			if(number==compareKey.number) {
 				return true;
 			}
-			else return false;
-				
 		}
-		else return false;
+		return false;
 	}
 	
 }

@@ -1,4 +1,4 @@
-package java2;
+package java22;
 
 public class ExitExample {
 	public static void main(String[] args) {

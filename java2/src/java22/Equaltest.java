@@ -1,5 +1,5 @@
 
-package java2;
+package java22;
 
 public class Equaltest {
 

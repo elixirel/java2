@@ -1,4 +1,4 @@
-package java2;
+package java22;
 
 import java.util.Date;
 

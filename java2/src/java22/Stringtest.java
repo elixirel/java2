@@ -1,4 +1,4 @@
-package java2;
+package java22;
 
 public class Stringtest {
 	public static void main(String[] args) {
