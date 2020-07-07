@@ -1,17 +1,22 @@
 package java26;
-import java.util.Comparator;
 
 
-public class Member implements Comparable<Member> {
+
+public class Member{
 	private int memberId;
 	private String memberName;
 	
-	@Override
-	public int compareTo(Member o) {
+	
+//	@Override
+//	public int compareTo(Member o) {
+//		return 0;
 		// TODO Auto-generated method stub
-		return (this.memberId - o.memberId); // 오름차순
-	}
-
+//		return (this.memberId - o.memberId); //오름차순
+//		return (this.memberId - o.memberId)*(-1); //내림차순
+//		return (this.memberName.compareTo(o.memberName)); // 이름으로 오름차순
+//		return (this.memberName.compareTo(o.memberName))*(-1); // 이름으로 내림차순	
+//	}
+	
 	public Member(int id, String name) {
 		memberId=id;
 		memberName=name;
@@ -55,6 +60,10 @@ public class Member implements Comparable<Member> {
 			
 		}
 		return false;
-	};
+	}
+
+
+
+
 	
 }
