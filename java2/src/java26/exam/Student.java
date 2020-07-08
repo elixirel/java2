@@ -31,7 +31,7 @@ public class Student {
 	
 
 	public String toString() {
-		return "[ "+name+classname+studentid+scoreavg+" ]\n";
+		return "[ "+name+", "+classname+", "+studentid+", "+scoreavg+" ]\n";
 	}
 
 	@Override
