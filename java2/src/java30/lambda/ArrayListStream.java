@@ -1,4 +1,4 @@
-package java30;
+package java30.lambda;
 
 import java.util.*;
 import java.util.stream.Stream;
